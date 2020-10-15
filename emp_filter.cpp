@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	ofstream out_file("/mnt/d/DevOps/hpc-us-west-2/tx_employees.csv");
-	std::ifstream infile("/mnt/d/DevOps/hpc-us-west-2/emp-data-small.csv");
+	std::ifstream infile("/mnt/d/DevOps/hpc-us-west-2/emp-data.csv");
 
 	if(!infile) {
 		cout<<"No such file"; 
