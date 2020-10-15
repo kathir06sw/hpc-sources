@@ -16,7 +16,7 @@ int main()
 				new_file >>ch;
 				int found = ch.find("TX"); 
 				if(found>0 ){
-					cout << ch;   
+					//cout << ch;   
 					out_file << ch;
 					out_file << "\n";
 				}
