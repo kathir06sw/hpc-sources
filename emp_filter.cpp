@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
 	fstream new_file; 
-	ofstream out_file("/home/admin/HPC/slurm-demo/tx_employees.csv");
-	new_file.open("/home/admin/HPC/slurm-demo/emp-data.csv",ios::in);   
+	ofstream out_file("/var/tmp/steerwise/tx_employees.csv");
+	new_file.open("/var/tmp/steerwise/emp-data.csv",ios::in);   
 	if(!new_file) {
 		cout<<"No such file"; 
 	}
